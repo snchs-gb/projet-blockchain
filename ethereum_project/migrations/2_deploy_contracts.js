@@ -1,4 +1,4 @@
-const SimpleStorage = artifacts.require("SimpleStorage");
+const Lending = artifacts.require("Lending");
 module.exports = function(deployer) {
-    deployer.deploy(SimpleStorage);
+    deployer.deploy(Lending);
 };
